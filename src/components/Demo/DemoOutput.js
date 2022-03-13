@@ -6,4 +6,5 @@ const DemoOutput = (props) => {
   return <MyParagraph>{props.show ? "This is new!" : ""}</MyParagraph>;
 };
 
+// this makes that React will not reevaluating this component and it's children
 export default React.memo(DemoOutput);
