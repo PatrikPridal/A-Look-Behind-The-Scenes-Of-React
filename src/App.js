@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
+// useCallback is a hook that allows us basically store a function across component executions
 
 import Button from './components/UI/Button/Button';
 import DemoOutput from './components/Demo/DemoOutput';
