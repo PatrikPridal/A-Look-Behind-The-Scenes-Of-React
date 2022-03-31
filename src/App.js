@@ -12,7 +12,7 @@ function App() {
   console.log('APP RUNNIN');
 
   // useCallback used with my fucntion as first argument
-  // empty array as second argument (dependencies)
+  // allowToggle in an array as second argument (dependencies)
   const toggleParagraphHandler = useCallback(() => {
     if (allowToggle) {
       setShowParagraph((prevShowParagraph) => !prevShowParagraph);
